@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
 
-body,html {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
   font-family: "Montserrat", sans-serif;
   height: 100%;
-  /* overflow: hidden; */
   font-size: 16px;
   text-decoration: none;
   background: no-repeat center url("images/1.png") #8e1f7e;
@@ -11,7 +17,9 @@ body,html {
   background-size: 62.5%;
 }
 
-a {
+.services,
+.portfolio,
+.contacts {
   text-decoration: none;
   color: white;
 }
@@ -39,7 +47,6 @@ a {
   gap: 1.7rem;
   color: white;
   top: 1.1%;
-  /* place-self: center end !important; */
   left: 96%;
 }
 
@@ -48,22 +55,8 @@ a {
   width: 79vw;
 }
 
-/* .services{
-  position: relative;
-  left: 22.552083333333332%;
-}
-
-.portfolio{
-  position: relative;
-  left: 28.854166666666668%;
-}
-
-.contacts{
-  position: relative;
-  left: 81.5625%;
-} */
-
-.mini-line1, .mini-line2 {
+.mini-line1,
+.mini-line2 {
   border-left: 1px solid white;
   height: 5vh;
   position: relative;
@@ -82,3 +75,106 @@ a {
   left: 3.6%;
   margin-top: 2%;
 }
+
+.big-line-black {
+  border: 2px solid black;
+  width: 92.70833333333333%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.russian-field {
+  background-color: white;
+  margin-top: 42vh;
+  width: 92.6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.polerusskoe {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  text-decoration-line: underline;
+  opacity: 0.6;
+  padding-bottom: 1.59%;
+}
+
+.client-moskow {
+  display: inline-flex;
+  gap: 1rem;
+  position: relative;
+  margin-top: 2%;
+  left: 3.5%;
+}
+
+.container-pole {
+  display: block;
+  text-align: center;
+}
+
+.field {
+  color: #000;
+  text-align: center;
+  font-size: 82px;
+  letter-spacing: 6.613px;
+  text-transform: uppercase;
+  margin-top: 1.2%;
+  margin-bottom: 1.39%;
+}
+
+.big-line-black-1 {
+  margin-top: 1.59%;
+  border: 2px solid black;
+  width: 92.70833333333333%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.numbers {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 22%;
+}
+
+.procent15,
+.procent30 {
+  color: #000;
+  text-align: right;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.num15,
+.num30 {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+}
+
+.mini-line3 {
+  border-left: 1px solid black;
+  height: 14.5vh;
+  position: absolute;
+  left: 50%;
+}
+
+.text-num1, .text-num2{
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  height: fit-content;
+  text-align: left;
+}
+
