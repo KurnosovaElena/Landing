@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
 
-* {
+*{
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 body,
@@ -36,7 +37,6 @@ html {
   align-items: center;
   position: absolute;
   gap: 1.7rem;
-  top: 1.1%;
   left: 22%;
 }
 
@@ -58,7 +58,7 @@ html {
 .mini-line1,
 .mini-line2 {
   border-left: 1px solid white;
-  height: 5vh;
+  height: 5.5vh;
   position: relative;
 }
 
@@ -163,7 +163,7 @@ html {
 
 .mini-line3 {
   border-left: 1px solid black;
-  height: 14.5vh;
+  height: 14vh;
   position: absolute;
   left: 50%;
 }
@@ -177,4 +177,5 @@ html {
   height: fit-content;
   text-align: left;
 }
+
 
