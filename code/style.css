@@ -345,7 +345,7 @@ html {
   position: relative;
   left: 5%;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .prdone {
@@ -366,4 +366,122 @@ html {
 .online {
   position: relative;
   top: 0.2rem;
+}
+
+.team {
+  background-color: white;
+  height: 105vh;
+  width: 100vw;
+  display: flex;
+  gap: 5rem;
+}
+
+.memb1,
+.memb2,
+.memb3,
+.memb4,
+.memb5 {
+  display: flex;
+  gap: 1rem;
+}
+
+.memb2 {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.memb3 {
+  position: relative;
+  bottom: 1rem;
+}
+
+.memb4 {
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.memb5 {
+  position: relative;
+  bottom: 2rem;
+}
+
+.team-case {
+  display: flex;
+  gap: 5.5rem;
+}
+
+.team-text,
+.pr-team {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 18rem;
+  position: relative;
+  left: 20%;
+}
+
+.memm-img {
+  width: 40%;
+}
+
+.content-manager{
+  color: blue ;
+  position: relative;
+  top: 3rem;
+  font-size: 18px;
+  width: 23vw;
+}
+
+.veryical{
+  border-left: 2px solid #000;;
+  height: 10vh;
+  position: relative;
+  bottom: 0.5rem;
+  opacity: 0.4;
+}
+
+.veryical2{
+  border-left: 2px solid blue;;
+  height: 10vh;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.desc1,
+.desc2,
+.desc3,
+.desc4,
+.desc5 {
+  margin-bottom: 5%;
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  align-content: center;
+}
+
+.description-case {
+  position: relative;
+  width: 50%;
+  margin-top: 1%;
+}
+
+.creative-director,
+.digital,
+.copywriter,
+.account-manager {
+  position: relative;
+  top: 3rem;
+  color: #000;
+  font-size: 18px;
+  width: 23vw;
+}
+
+.team-case, .description-case{
+  position: relative;
+  top: 7rem;
 }
