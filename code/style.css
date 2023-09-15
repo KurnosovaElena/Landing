@@ -537,4 +537,43 @@ html {
   margin-top: 30%;
 }
 
+.dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  margin-top: 2%;
+}
 
+.case-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  position: relative;
+  left: 3.5%;
+  margin-bottom: 2%;
+  margin-top: 8%;
+}
+
+.case-text1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  width: 17rem;
+}
+
+.c-link {
+  color: var(--blue, #002eff);
+  font-family: Montserrat;
+  font-size: 12px;
+  text-decoration-line: underline;
+  text-decoration: none;
+}
+
+.scroll {
+  display: flex;
+  position: relative;
+  left: 3.5%;
+  gap: 4rem;
+  width: 105vw;
+}
