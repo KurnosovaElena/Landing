@@ -356,6 +356,7 @@ html {
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
+  overflow-y: hidden;
 }
 
 .prdone-text {
@@ -611,4 +612,47 @@ html {
   margin-top: 18%;
   margin-left: 20%;
   margin-right: auto;
+}
+
+footer{
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 15vh;
+}
+
+.logo2{
+  position: relative;
+  left: 3.5%
+}
+
+.years{
+  position: relative;
+  left: 5%;
+}
+
+.avia{
+  position: relative;
+  left: 10%;
+  width: 10rem;
+}
+
+.socmedia{
+  position: relative;
+  left: 20%;
+}
+
+.link-to-pr{
+  position: relative;
+  left: 30%;
+}
+
+.line-mini-bottom{
+  position: relative;
+  left:32%
+}
+
+.number-bottom{
+  position: relative;
+  left: 34%;
 }
