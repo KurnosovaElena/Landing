@@ -577,3 +577,38 @@ html {
   gap: 4rem;
   width: 105vw;
 }
+
+.brief {
+  display: flex;
+}
+
+.text-brief {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 25rem;
+  position: relative;
+  left: 3.5%;
+  margin-top: 4%;
+}
+
+.line {
+  position: relative;
+  left: 25%;
+}
+
+.button {
+  position: relative;
+  left: 52.55%;
+  background-color: blue;
+}
+
+.button-text{
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 16.5rem;
+  margin-top: 18%;
+  margin-left: 20%;
+  margin-right: auto;
+}
