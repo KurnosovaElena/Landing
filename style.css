@@ -1,0 +1,1313 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  font-size: 16px;
+  text-decoration: none;
+  background: no-repeat center url("images/1.png") #8e1f7e;
+  background-position: 50% 4.5rem;
+  background-size: 62.5%;
+}
+
+.services,
+.portfolio,
+.contacts {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  height: fit-content;
+  position: relative;
+}
+
+.information-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 1.7rem;
+  left: 22%;
+}
+
+.information-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  color: white;
+  top: 1.1%;
+  margin-left: auto;
+  /* left: 64.5%; */
+}
+
+.main-information {
+  display: inline-flex;
+  width: 95.5vw;
+}
+
+.mini-line1,
+.mini-line2 {
+  border-left: 1px solid white;
+  height: 5.5vh;
+  position: relative;
+}
+
+.big-line {
+  border: 2px solid white;
+  width: 92.70833333333333%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-container {
+  position: relative;
+  left: 3.6%;
+  margin-top: 2%;
+}
+
+.big-line-black {
+  border: 2px solid black;
+  width: 92.70833333333333%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.russian-field {
+  background-color: white;
+  margin-top: 42vh;
+  width: 92.6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.polerusskoe {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  text-decoration-line: underline;
+  opacity: 0.6;
+  /* padding-bottom: 1.59%; */
+}
+
+.client-moskow {
+  display: inline-flex;
+  gap: 1rem;
+  position: relative;
+  margin-top: 2%;
+  left: 3.5%;
+}
+
+.container-pole {
+  display: block;
+  text-align: center;
+}
+
+.field {
+  color: #000;
+  text-align: center;
+  font-size: 82px;
+  letter-spacing: 6.613px;
+  text-transform: uppercase;
+  margin-top: 1.2%;
+  margin-bottom: 2rem;
+}
+
+.big-line-black-1 {
+  margin-top: 1.59%;
+  border: 2px solid black;
+  width: 92.70833333333333%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.numbers {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 14%;
+}
+
+.procent15,
+.procent30 {
+  color: #000;
+  text-align: right;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.num15,
+.num30 {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+}
+
+.mini-line3 {
+  border-left: 1px solid black;
+  height: 14vh;
+  position: relative;
+}
+
+.text-num1,
+.text-num2 {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  height: fit-content;
+  text-align: left;
+}
+
+.task-and-done {
+  background-color: white;
+  height: 58vh;
+  width: 100vw;
+  display: flex;
+  overflow: visible;
+}
+
+.task,
+.done {
+  color: var(--blue, #002eff);
+  font-family: Montserrat;
+  font-size: 20px;
+  position: relative;
+  top: 6rem;
+}
+
+.done-right,
+.instruments-case,
+.prdone-case {
+  overflow: visible;
+}
+
+.task-left,
+.done-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-line-container {
+  background-color: white;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-line-black-2 {
+  border: 2px solid black;
+  width: 92.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task {
+  position: relative;
+  left: 11.5%;
+}
+
+.done {
+  position: relative;
+  right: 15.71%;
+  width: fit-content;
+}
+
+.task-text,
+.done-text {
+  position: relative;
+  top: 8.5rem;
+  color: #000;
+  font-size: 30px;
+}
+
+.task-text {
+  position: relative;
+  width: 65%;
+  left: 11.5%;
+}
+
+.done-text {
+  position: relative;
+  right: 15.71%;
+  width: 100%;
+}
+
+.instruments-and-prdone {
+  display: flex;
+  background-color: white;
+  gap: 15%;
+  height: 75vh;
+}
+
+.grey {
+  border: 1px solid black;
+  opacity: 0.2;
+  width: 98%;
+}
+
+.black {
+  border: 1px solid black;
+  width: 98%;
+}
+
+.instruments-text1,
+.prdone-text,
+.instruments-text2 {
+  color: #000;
+  font-size: 30px;
+  position: relative;
+  top: 6rem;
+}
+
+.instruments-case {
+  position: relative;
+  left: 3.7%;
+  line-height: 40px;
+  line-break: auto;
+}
+
+.instruments {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  font-family: Montserrat;
+  font-size: 28px;
+  width: 40vw;
+  position: relative;
+  top: 26.9%;
+  gap: 1rem;
+}
+
+.google,
+.google-tag,
+.yandex,
+.axure {
+  align-content: baseline;
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.optimizationpr,
+.online-analytics,
+.visualization,
+.optimization {
+  display: flex;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  gap: 1rem;
+}
+
+.google-tag-text,
+.google-text,
+.yandex-text,
+.axure-text {
+  position: relative;
+  top: 0.5rem;
+}
+
+.optimization {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+}
+
+.optimization-name {
+  display: flex;
+  color: var(--blue, #002eff);
+  font-family: Montserrat;
+  font-size: 18px;
+  gap: 1rem;
+  text-align: left;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.optimization-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  position: relative;
+  left: 5%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.prdone {
+  position: relative;
+  top: 30%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.prdone-text {
+  width: 23vw;
+}
+
+.visual,
+.opt,
+.online {
+  position: relative;
+  top: 0.2rem;
+}
+
+.team {
+  background-color: white;
+  height: 130vh;
+  width: 100vw;
+  display: flex;
+  overflow-y: hidden;
+  position: relative;
+  /* padding-top: 7%; */
+}
+
+.members {
+  position: relative;
+  left: 9%;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.memb1,
+.memb2,
+.memb3,
+.memb4,
+.memb5 {
+  display: flex;
+  gap: 1rem;
+  overflow: visible;
+  width: fit-content;
+}
+
+.memb2 {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.memb3 {
+  position: relative;
+  bottom: 1rem;
+}
+
+.memb4 {
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.memb5 {
+  position: relative;
+  bottom: 2rem;
+}
+
+.team-case {
+  display: flex;
+}
+
+.team-text {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 18rem;
+  position: relative;
+  left: 5%;
+  word-wrap: break-word;
+  overflow: visible;
+}
+
+.memm-img {
+  width: 40%;
+}
+
+.content-manager {
+  color: blue;
+  position: relative;
+  top: 3rem;
+  font-size: 18px;
+  width: 23vw;
+}
+
+.veryical {
+  border-left: 2px solid #000;
+  height: 10vh;
+  position: relative;
+  bottom: 0rem;
+  opacity: 0.4;
+}
+
+.veryical2 {
+  border-left: 2px solid blue;
+  height: 10vh;
+  position: relative;
+  bottom: 0rem;
+}
+
+.desc1,
+.desc2,
+.desc3,
+.desc4,
+.desc5 {
+  margin-bottom: 11.5%;
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  align-items: center;
+  overflow: visible;
+}
+
+.description-case {
+  position: relative;
+  width: 50%;
+  margin-top: 2%;
+  overflow: visible;
+  left: 6%;
+  word-wrap: break-word;
+}
+
+.creative-director,
+.digital,
+.copywriter,
+.account-manager {
+  position: relative;
+  top: 4.5rem;
+  margin-bottom: 2%;
+  color: #000;
+  font-size: 18px;
+  width: 23vw;
+}
+
+.team-case,
+.description-case {
+  position: relative;
+  top: 7rem;
+}
+
+.Achievements {
+  display: flex;
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+.Achievements section {
+  width: 24vw;
+}
+
+.results {
+  color: #000;
+  font-size: 30px;
+  position: relative;
+  margin-left: 4%;
+  margin-top: 8%;
+  /* margin-right: -5%; */
+  overflow: visible;
+  flex: 0.5;
+}
+
+.procent-flex2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.procent-flex {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.Percent {
+  color: var(--blue, #002eff);
+  font-family: Noto Sans;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.block1,
+.block2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 8%;
+  flex: 1;
+}
+
+.text-percent {
+  width: 80%;
+}
+
+.under-percent {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: var(--blue, #002eff);
+  font-family: Montserrat;
+  font-size: 18px;
+  width: 19vw;
+  display: block;
+}
+
+.p103,
+.p30 {
+  margin-top: 20%;
+}
+
+.dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  margin-top: 2%;
+}
+
+.case-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  position: relative;
+  left: 3.5%;
+  margin-bottom: 2%;
+  margin-top: 8%;
+}
+
+.case-text1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  width: 17rem;
+}
+
+.c-link {
+  color: var(--blue, #002eff);
+  font-family: Montserrat;
+  font-size: 12px;
+  text-decoration-line: underline;
+  text-decoration: none;
+}
+
+.scroll {
+  display: flex;
+  position: relative;
+  left: 3.5%;
+  gap: 4rem;
+  width: 105vw;
+}
+
+.brief {
+  display: flex;
+}
+
+.text-brief {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 25rem;
+  position: relative;
+  left: 3.5%;
+  margin-top: 4%;
+}
+
+.line {
+  position: relative;
+  left: 25%;
+}
+
+.button {
+  position: relative;
+  left: 53%;
+  background-color: blue;
+}
+
+.button-text {
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+  width: 16.5rem;
+  margin-top: 18%;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 15vh;
+}
+
+.logo2 {
+  position: relative;
+  left: 3.5%;
+}
+
+.years {
+  position: relative;
+  left: 5%;
+}
+
+.avia {
+  position: relative;
+  left: 10%;
+  width: 10rem;
+}
+
+.socmedia {
+  position: relative;
+  left: 20%;
+}
+
+.link-to-pr {
+  position: relative;
+  left: 30%;
+}
+
+.line-mini-bottom {
+  position: relative;
+  left: 32%;
+}
+
+.number-bottom {
+  position: relative;
+  left: 34%;
+}
+
+@media screen and (max-width: 720px) {
+  body,
+  html {
+    height: 100%;
+    background-position: 50% 9rem;
+    background-size: 78%;
+    font-size: 14px;
+  }
+
+  .information-left {
+    left: 6.5rem;
+  }
+
+  .russian-field {
+    margin-top: 21.5vh;
+  }
+
+  .field {
+    font-size: 44px;
+  }
+
+  .numbers {
+    gap: 5% !important;
+  }
+
+  .mini-line3 {
+    height: 9.9vh;
+  }
+
+  .task-and-done {
+    height: 30vh;
+  }
+
+  .task,
+  .done {
+    font-size: 12px;
+  }
+
+  .task-text {
+    width: 58.5%;
+  }
+
+  .done-text {
+    width: 88%;
+  }
+
+  .task-text,
+  .done-text {
+    font-size: 16px;
+  }
+
+  .instruments-and-prdone {
+    flex-direction: column;
+    height: 73.5vh;
+    gap: 6%;
+  }
+
+  .prdone-text {
+    width: fit-content;
+    position: relative;
+    left: 3%;
+  }
+
+  .instruments-text1,
+  .prdone-text,
+  .instruments-text2 {
+    font-size: 22px;
+    top: 3rem;
+  }
+
+  .instruments {
+    font-size: 18px;
+    position: relative;
+    top: 20%;
+  }
+
+  .google-tag-text,
+  .google-text,
+  .yandex-text,
+  .axure-text {
+    top: 0rem;
+  }
+
+  .prdone {
+    top: 20%;
+    left: 3%;
+  }
+
+  .optimizationpr,
+  .online-analytics,
+  .visualization,
+  .optimization {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .p30 {
+    overflow: visible;
+  }
+
+  .optimization-text {
+    width: 70%;
+  }
+
+  .grey,
+  .black {
+    width: 75%;
+  }
+
+  .scroll {
+    gap: 0rem;
+  }
+
+  .c-text {
+    margin-left: 2%;
+  }
+
+  .case-img2 {
+    width: 80%;
+  }
+
+  .case-text1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    width: 40rem;
+    margin-left: 2%;
+  }
+
+  .optimizationpr-text,
+  .online-analytics-text,
+  .visualization-text,
+  .optimization-name {
+    font-size: 14px;
+  }
+
+  .team-case {
+    flex-direction: column;
+    width: 40%;
+    top: 4rem;
+    overflow-y: hidden;
+  }
+
+  .description-case {
+    top: 24%;
+    width: 50%;
+  }
+
+  .team {
+    padding: 0;
+    height: 85vh;
+  }
+
+  .desc1,
+  .desc2,
+  .desc3,
+  .desc4,
+  .desc5 {
+    width: fit-content;
+    margin-bottom: 12%;
+  }
+
+  .text-brief {
+    font-size: 26px;
+    width: 30% !important;
+  }
+
+  .button {
+    left: 36.2%;
+    width: 30%;
+  }
+
+  .button-text {
+    width: 15rem;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .veryical,
+  .veryical2 {
+    height: 8vh;
+    top: 0.4rem;
+  }
+
+  .team-text {
+    width: 80%;
+  }
+
+  .members {
+    top: 3%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .memm-img {
+    z-index: 0;
+  }
+
+  .procent-flex2 {
+    flex-direction: column;
+  }
+
+  .procent-flex {
+    position: relative;
+    left: 5%;
+  }
+
+  .results {
+    bottom: 5%;
+  }
+
+  .p30 {
+    margin-top: 35%;
+  }
+
+  .logo2 {
+    position: relative;
+    left: 2%;
+    width: 12%;
+  }
+
+  .years {
+    left: 4%;
+    width: 14%;
+  }
+
+  .avia {
+    left: 5%;
+    width: 10rem;
+  }
+
+  .socmedia {
+    left: 3%;
+    width: 15%;
+    text-align: center;
+  }
+
+  .link-to-pr {
+    left: 5%;
+  }
+
+  .line-mini-bottom {
+    left: 6.5%;
+  }
+
+  .number-bottom {
+    left: 8%;
+    text-align: center;
+  }
+
+  .number-bottom,
+  .line-mini-bottom,
+  .link-to-pr,
+  .socmedia,
+  .avia,
+  .years {
+    font-size: 12px;
+  }
+
+  .text-percent {
+    width: 40vw;
+    overflow: visible;
+  }
+
+  .sec {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body,
+  html {
+    height: 100%;
+    background-position: 50% 6rem;
+    background-size: 78%;
+    font-size: 14px;
+  }
+
+  .mini-line2,
+  .portfolio,
+  .contacts,
+  .prdone-case,
+  .desc1,
+  .desc3,
+  .desc4,
+  .desc5,
+  .line {
+    display: none;
+  }
+
+  .information-left {
+    left: 5%;
+    width: 50%;
+  }
+
+  .logo-container {
+    margin-top: 5%;
+  }
+
+  .field {
+    font-size: 22px;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+
+  .container-pole {
+    overflow: hidden;
+  }
+
+  .big-line-black-1 {
+    margin-top: 10%;
+  }
+
+  .numbers {
+    flex-direction: column;
+  }
+
+  .mini-line3 {
+    border-left: none;
+    height: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .procent15,
+  .procent30 {
+    font-size: 1.5rem;
+    position: relative;
+    left: 5%;
+    margin-right: 5%;
+  }
+
+  .num15,
+  .num30 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .text-num1,
+  .text-num2 {
+    font-size: 12px;
+  }
+
+  .client-moskow {
+    color: white;
+  }
+
+  .mini-line1 {
+    left: 40%;
+  }
+
+  .task-and-done {
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .task-left {
+    overflow: visible;
+    margin-bottom: 6%;
+  }
+
+  .task-text,
+  .done-text {
+    width: 80%;
+    top: 6rem;
+  }
+
+  .done-right,
+  .done,
+  .done-text {
+    left: 11.5% !important;
+  }
+
+  .instruments-text1,
+  .instruments-text2 {
+    font-size: 20px;
+  }
+
+  .instruments {
+    top: 15% !important;
+    width: 80rem;
+  }
+
+  .svg-axure,
+  .svg-google,
+  .svg-googletag,
+  .svg-yandex {
+    width: 4%;
+  }
+
+  .instruments-and-prdone {
+    overflow: visible;
+    height: 70vh;
+  }
+
+  .team {
+    display: block !important;
+    width: 290vw;
+    height: 115vh;
+  }
+
+  .procent-flex {
+    flex-direction: column;
+  }
+
+  .team-text {
+    width: 80%;
+    font-size: 24px;
+  }
+
+  .desc2 {
+    position: relative;
+    bottom: 41.5rem;
+    width: 60%;
+    right: 7%;
+    gap: 1rem;
+  }
+
+  .veryical2 {
+    height: 12vh;
+    top: 0;
+  }
+
+  .memb2 {
+    margin-bottom: 25%;
+  }
+
+  .team-case {
+    top: 0;
+  }
+
+  .members {
+    margin-top: 5%;
+  }
+
+  .memm-img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .memb1,
+  .memb2,
+  .memb3,
+  .memb4,
+  .memb5 {
+    width: 100%;
+  }
+
+  .creative-director,
+  .digital,
+  .copywriter,
+  .account-manager,
+  .content-manager {
+    width: 92vw;
+    top: 2rem;
+    font-size: 16px;
+  }
+
+  .results {
+    font-size: 26px;
+    word-wrap: initial;
+  }
+
+  .Percent {
+    font-size: 34px;
+    width: 13vw !important;
+  }
+
+  .Percent_overview {
+    overflow: visible;
+  }
+
+  .text-percent {
+    width: 80vw;
+    font-size: 10px;
+  }
+
+  .under-percent {
+    width: 75vw;
+    font-size: 12px;
+  }
+
+  .p30,
+  .p103 {
+    margin-top: 12%;
+  }
+
+  .case-text {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  .case-text1 {
+    top: 13rem !important;
+    position: relative;
+    font-size: 16px;
+    right: 28%;
+    width: 100%;
+  }
+
+  .cases {
+    overflow: visible;
+    height: 100%;
+  }
+
+  .scroll {
+    width: 270vw;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .c-text {
+    width: 100%;
+  }
+
+  .dots {
+    margin-bottom: 65%;
+    position: relative;
+    top: 10rem;
+  }
+
+  .brief {
+    flex-direction: column;
+  }
+
+  .text-brief {
+    width: 80% !important;
+    font-size: 20px;
+    margin-bottom: 2%;
+    left: 2%;
+  }
+
+  .button {
+    width: 75%;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50vh;
+    margin-bottom: 5%;
+  }
+
+  .button-text {
+    font-size: 24px;
+  }
+
+  .logo2 {
+    width: 30%;
+    position: relative;
+    bottom: 40%;
+    overflow: visible;
+    left: 5%;
+  }
+
+  .years {
+    left: 40%;
+    width: 100% !important;
+    bottom: 40%;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .avia {
+    bottom: 15%;
+    left: -50% !important;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .socmedia {
+    top: 12%;
+    left: -80% !important;
+    overflow: visible;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+
+  footer {
+    height: 13rem;
+    overflow: hidden;
+  }
+
+  .link-to-pr {
+    top: 33%;
+    width: 100%;
+    left: -95% !important;
+    overflow: visible;
+  }
+
+  .line-mini-bottom {
+    top: 33%;
+    width: 100%;
+    left: -87% !important;
+    height: 1.5rem;
+    overflow: visible;
+  }
+
+  .number-bottom {
+    top: 33%;
+    width: 100%;
+    left: -80% !important;
+    white-space: nowrap;
+    overflow: visible;
+  }
+}
