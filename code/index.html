@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>РУССКОЕ ПОЛЕ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -59,7 +59,7 @@
     </div>
     <div class="task-and-done">
       <div class="task-left">
-        <span class="task">Задание:</span>
+        <span class="task">Задача:</span>
         <p class="task-text">Разработать рекламную компанию для крупнейшего фестиваля народных мастеров и творческих
           коллективов России</p>
       </div>
@@ -77,7 +77,7 @@
         <div class="instruments-text2">которые мы использовали:</div>
         <div class="instruments">
           <div class="google">
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+            <svg class="svg-google" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
               <path
                 d="M26.0002 47.6666C37.9663 47.6666 47.6668 37.9661 47.6668 25.9999C47.6668 14.0337 37.9663 4.33325 26.0002 4.33325C14.034 4.33325 4.3335 14.0337 4.3335 25.9999C4.3335 37.9661 14.034 47.6666 26.0002 47.6666Z"
                 fill="black" />
@@ -94,7 +94,7 @@
             <div class="google-text">Google Analytics</div>
           </div>
           <div class="yandex">
-            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" fill="none">
+            <svg class="svg-yandex" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" fill="none">
               <rect x="32" width="14" height="44" fill="#4E4E4E" />
               <rect x="31.7002" width="0.3" height="44" fill="#4E4E4E" />
               <rect x="16" y="15" width="14.4" height="29" fill="#292929" />
@@ -103,7 +103,7 @@
             <div class="yandex-text">Яндекс. Метрика</div>
           </div>
           <div class="google-tag">
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+            <svg class="svg-googletag" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
               <path
                 d="M48.6905 23.2409L28.7594 3.3097C27.2384 1.7887 24.7629 1.7887 23.2409 3.3097L3.3097 23.2409C1.7887 24.7619 1.7887 27.2373 3.3097 28.7594L23.2409 48.6905C24.0014 49.451 25.0013 49.8313 26.0001 49.8313C26.9989 49.8313 27.9989 49.451 28.7594 48.6905L48.6905 28.7594C50.2115 27.2384 50.2115 24.7619 48.6905 23.2409ZM26.0001 31.4168L20.5834 26.0001L26.0001 20.5834L31.4168 26.0001L26.0001 31.4168Z"
                 fill="#4E4E4E" />
@@ -117,7 +117,7 @@
             <div class="google-tag-text">Google Tag Manager</div>
           </div>
           <div class="axure">
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+            <svg class="svg-axure" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
               <g clip-path="url(#clip0_77_566)">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M49.3068 1.37751C48.8418 0.515562 47.8441 0.00170898 46.6387 0.00170898H41.9804C40.6273 0.00170898 39.6159 0.476443 39.0832 1.3311L32.1792 10.1197L38.2233 17.3209L48.7756 4.13309C49.9339 2.90714 49.5329 1.79721 49.3068 1.37751Z"
@@ -191,10 +191,7 @@
     </div>
     <div class="team">
       <div class="team-case">
-        <div class="text-team">
-          <div class="team-text">Команда, которая участвовала</div>
-          <div class="pr-team">в проекте:</div>
-        </div>
+        <div class="team-text">Команда, которая участвовала в проекте:</div>
         <div class="members">
           <div class="memb1">
             <img class="memm-img" src="images/Oval.png" alt="creative" style="z-index: 0;">
@@ -250,118 +247,122 @@
       <div class="big-line-black-2"></div>
     </div>
     <div class="Achievements">
-      <div class="results">Основные результаты</div>
-      <div class="block1">
-        <section>
-          <div class="Percent_overview">
-            <span class="Percent">
-              -15%
-            </span>
+      <div class="procent-flex2">
+        <div class="results">Основные результаты:</div>
+        <div class="procent-flex">
+          <div class="block1">
+            <div>
+              <div class="Percent_overview">
+                <span class="Percent">
+                  -15%
+                </span>
+              </div>
+              <span class="under-percent">
+                уменьшение расходов на рекламную компанию
+              </span>
+              <div class="text-percent">
+                По итогам UX-исследования составлены рекомендации и roadmap с приоритетои внедрения.
+                После внедрения рекомендаций клиент провел серию А-В тестирования , которые подтвердили
+                увеличение показателей конверсии в платные сервисы и рекламные блоки.
+              </div>
+            </div>
+            <div class="p103">
+              <div class="Percent_overview">
+                <span class="Percent">
+                  +103%
+                </span>
+              </div>
+              <span class="under-percent">
+                время пребывание на сайте
+              </span>
+              <div class="text-percent">
+                По итогам UX-исследования составлены рекомендации и roadmap с приоритетои внедрения.
+                После внедрения рекомендаций клиент провел серию А-В тестирования , которые подтвердили
+                увеличение показателей конверсии в платные сервисы и рекламные блоки.
+              </div>
+            </div>
           </div>
-          <span class="under-percent">
-            уменьшение расходов на рекламную компанию
-          </span>
-          <div class="text-percent">
-            По итогам UX-исследования составлены рекомендации и roadmap с приоритетои внедрения.
-            После внедрения рекомендаций клиент провел серию А-В тестирования , которые подтвердили
-            увеличение показателей конверсии в платные сервисы и рекламные блоки.
+          <div class="block2">
+            <section class="sec">
+              <div class="Percent_overview">
+                <span class="Percent">
+                  +30%
+                </span>
+              </div>
+              <span class="under-percent">
+                увеличение количества заявок в сутки
+              </span>
+              <div class="text-percent">
+                Вносимые на основе рекомендаций изменения способствую росту показателей ARPU на 30%.
+                Время пребывания на сайте увеличилось на 16%. Потребление новостного контента выросло в 2 раза.
+              </div>
+            </section>
+            <section class="p30">
+              <div class="Percent_overview">
+                <span class="Percent">
+                  +30%
+                </span>
+              </div>
+              <span class="under-percent">
+                увеличение количества заявок в сутки
+              </span>
+              <div class="text-percent">
+                Вносимые на основе рекомендаций изменения способствую росту показателей ARPU на 30%.
+                Время пребывания на сайте увеличилось на 16%. Потребление новостного контента выросло в 2 раза.
+              </div>
+            </section>
           </div>
-        </section>
-        <section class="p103">
-          <div class="Percent_overview">
-            <span class="Percent">
-              +103%
-            </span>
-          </div>
-          <span class="under-percent">
-            время пребывание на сайте
-          </span>
-          <div class="text-percent">
-            По итогам UX-исследования составлены рекомендации и roadmap с приоритетои внедрения.
-            После внедрения рекомендаций клиент провел серию А-В тестирования , которые подтвердили
-            увеличение показателей конверсии в платные сервисы и рекламные блоки.
-          </div>
-        </section>
-      </div>
-      <div class="block2">
-        <section>
-          <div class="Percent_overview">
-            <span class="Percent">
-              +30%
-            </span>
-          </div>
-          <span class="under-percent">
-            увеличение количества заявок в сутки
-          </span>
-          <div class="text-percent">
-            Вносимые на основе рекомендаций изменения способствую росту показателей ARPU на 30%.
-            Время пребывания на сайте увеличилось на 16%. Потребление новостного контента выросло в 2 раза.
-          </div>
-        </section>
-        <section class="p30">
-          <div class="Percent_overview">
-            <span class="Percent">
-              +30%
-            </span>
-          </div>
-          <span class="under-percent">
-            увеличение количества заявок в сутки
-          </span>
-          <div class="text-percent">
-            Вносимые на основе рекомендаций изменения способствую росту показателей ARPU на 30%.
-            Время пребывания на сайте увеличилось на 16%. Потребление новостного контента выросло в 2 раза.
-          </div>
-        </section>
-      </div>
-    </div>
-    <div class="big-line-container">
-      <div class="big-line-black-2"></div>
-    </div>
-    <div class="cases" style="background-color: white;">
-      <div class="case-text">Другие кейсы</div>
-      <div class="scroll">
-        <img src="images/штука для кейса 2.png" alt="">
-        <div class="case-text1">
-          <div class="c-text">Создали и продолжаем поддерживать интернет-магазин современной техники Store77</div>
-          <div><a href="" class="c-link">Подробнее  >></a></div>
-        </div>
-        <img src="images/курица.png" alt="">
-        <div class="case-text1">
-          <div class="c-text">Помогли компании Coca-Cola увеличить количество подписчиков на ютуб-канале</div>
-          <div><a href="" class="c-link">Подробнее  >></a></div>
         </div>
       </div>
-      <svg class="dots" xmlns="http://www.w3.org/2000/svg" width="25" height="9" viewBox="0 0 25 9" fill="none">
-        <circle opacity="0.5" cx="4.5" cy="4.5" r="4.5" fill="black"/>
-        <circle cx="20.5" cy="4.5" r="4.5" fill="black"/>
-      </svg>
-    </div>
-    <div class="big-line-container">
-      <div class="big-line-black-2" style="margin-top: 8%;"></div>
-    </div>
-    <div class="brief" style="background-color: white;">
-      <div class="text-brief">
-        Расскажите нам о своем проекте, задаче, идее, сроках, а мы составим предложение
+      <div class="cases" style="background-color: white;">
+        <div class="big-line-container">
+          <div class="big-line-black-2"></div>
+        </div>
+        <div class="case-text">Другие кейсы</div>
+        <div class="scroll">
+          <img class="case-img1" src="images/штука для кейса 2.png" alt="">
+          <div class="case-text1">
+            <div class="c-text">Создали и продолжаем поддерживать интернет-магазин современной техники Store77</div>
+            <div><a href="" class="c-link">Подробнее >></a></div>
+          </div>
+          <img class="case-img2" src="images/курица.png" alt="">
+          <div class="case-text1">
+            <div class="c-text">Помогли компании Coca-Cola увеличить количество подписчиков на ютуб-канале</div>
+            <div><a href="" class="c-link">Подробнее >></a></div>
+          </div>
+        </div>
+        <svg class="dots" xmlns="http://www.w3.org/2000/svg" width="25" height="9" viewBox="0 0 25 9" fill="none">
+          <circle opacity="0.5" cx="4.5" cy="4.5" r="4.5" fill="black" />
+          <circle cx="20.5" cy="4.5" r="4.5" fill="black" />
+        </svg>
       </div>
-      <svg class="line" xmlns="http://www.w3.org/2000/svg" width="2" height="411" viewBox="0 0 2 411" fill="none">
-        <path d="M1 0.5L1 409.914" stroke="black" stroke-linecap="square"/>
-      </svg>
-      <div class="button">
-        <div class="button-text">Заполнить бриф</div>
+      <div class="big-line-container">
+        <div class="big-line-black-2" style="margin-top: 8%;"></div>
       </div>
-    </div>
-    <div class="big-line-container">
-      <div class="big-line-black-2" style="margin-bottom: 3%;"></div>
-    </div>
+      <div class="brief" style="background-color: white;">
+        <div class="text-brief">
+          Расскажите нам о своем проекте, задаче, идее, сроках, а мы составим предложение
+        </div>
+        <svg class="line" xmlns="http://www.w3.org/2000/svg" width="2" height="411" viewBox="0 0 2 411" fill="none">
+          <path d="M1 0.5L1 409.914" stroke="black" stroke-linecap="square" />
+        </svg>
+        <div class="button">
+          <div class="button-text">Заполнить бриф</div>
+        </div>
+      </div>
+      <div class="big-line-container">
+        <div class="big-line-black-2" style="margin-bottom: 3%;"></div>
+      </div>
   </main>
   <footer>
     <img class="logo2" src="images/logo copy 4.png" alt="">
     <div class="years">©2012—2020</div>
     <div class="avia">Москва, Авиамоторная 25 офис 314</div>
-    <div class="socmedia">Мы в соцсетях:      vk   |   fb   |   in</div>
+    <div class="socmedia">Мы в соцсетях: vk | fb | in</div>
     <div class="link-to-pr">project@2dg.ru</div>
-    <svg class="line-mini-bottom" xmlns="http://www.w3.org/2000/svg" width="1" height="37" viewBox="0 0 1 37" fill="none">
-      <path d="M0.5 1V36" stroke="black" stroke-linecap="square"/>
+    <svg class="line-mini-bottom" xmlns="http://www.w3.org/2000/svg" width="1" height="37" viewBox="0 0 1 37"
+      fill="none">
+      <path d="M0.5 1V36" stroke="black" stroke-linecap="square" />
     </svg>
     <div class="number-bottom">8 495 123 – 45 – 67</div>
   </footer>

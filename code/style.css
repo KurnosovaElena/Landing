@@ -45,15 +45,16 @@ html {
   display: flex;
   align-items: center;
   position: relative;
-  gap: 1.7rem;
+  gap: 1rem;
   color: white;
   top: 1.1%;
-  left: 97.5%;
+  margin-left: auto;
+  /* left: 64.5%; */
 }
 
 .main-information {
   display: inline-flex;
-  width: 79vw;
+  width: 95.5vw;
 }
 
 .mini-line1,
@@ -124,7 +125,7 @@ html {
   letter-spacing: 6.613px;
   text-transform: uppercase;
   margin-top: 1.2%;
-  margin-bottom: 1.39%;
+  margin-bottom: 2rem;
 }
 
 .big-line-black-1 {
@@ -140,7 +141,7 @@ html {
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 22%;
+  gap: 14%;
 }
 
 .procent15,
@@ -155,7 +156,7 @@ html {
 .num15,
 .num30 {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -166,7 +167,6 @@ html {
   border-left: 1px solid black;
   height: 14vh;
   position: relative;
-  left: 50%;
 }
 
 .text-num1,
@@ -185,6 +185,7 @@ html {
   height: 58vh;
   width: 100vw;
   display: flex;
+  overflow: visible;
 }
 
 .task,
@@ -196,6 +197,12 @@ html {
   top: 6rem;
 }
 
+.done-right,
+.instruments-case,
+.prdone-case {
+  overflow: visible;
+}
+
 .task-left,
 .done-right {
   display: flex;
@@ -205,6 +212,7 @@ html {
 .big-line-container {
   background-color: white;
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -278,6 +286,8 @@ html {
 .instruments-case {
   position: relative;
   left: 3.7%;
+  line-height: 40px;
+  line-break: auto;
 }
 
 .instruments {
@@ -299,6 +309,7 @@ html {
   align-content: baseline;
   display: flex;
   gap: 1rem;
+  overflow: hidden;
 }
 
 .optimizationpr,
@@ -356,7 +367,6 @@ html {
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
-  overflow-y: hidden;
 }
 
 .prdone-text {
@@ -372,10 +382,19 @@ html {
 
 .team {
   background-color: white;
-  height: 105vh;
+  height: 130vh;
   width: 100vw;
   display: flex;
-  gap: 5rem;
+  overflow-y: hidden;
+  position: relative;
+  /* padding-top: 7%; */
+}
+
+.members {
+  position: relative;
+  left: 9%;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .memb1,
@@ -385,6 +404,8 @@ html {
 .memb5 {
   display: flex;
   gap: 1rem;
+  overflow: visible;
+  width: fit-content;
 }
 
 .memb2 {
@@ -409,11 +430,9 @@ html {
 
 .team-case {
   display: flex;
-  gap: 5.5rem;
 }
 
-.team-text,
-.pr-team {
+.team-text {
   color: #000;
   display: flex;
   flex-direction: column;
@@ -421,7 +440,9 @@ html {
   font-size: 30px;
   width: 18rem;
   position: relative;
-  left: 20%;
+  left: 5%;
+  word-wrap: break-word;
+  overflow: visible;
 }
 
 .memm-img {
@@ -440,7 +461,7 @@ html {
   border-left: 2px solid #000;
   height: 10vh;
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0rem;
   opacity: 0.4;
 }
 
@@ -448,7 +469,7 @@ html {
   border-left: 2px solid blue;
   height: 10vh;
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0rem;
 }
 
 .desc1,
@@ -456,20 +477,24 @@ html {
 .desc3,
 .desc4,
 .desc5 {
-  margin-bottom: 5%;
+  margin-bottom: 11.5%;
   display: flex;
   gap: 2rem;
-  width: 90%;
+  width: 80%;
   color: #000;
   font-family: Montserrat;
   font-size: 12px;
-  align-content: center;
+  align-items: center;
+  overflow: visible;
 }
 
 .description-case {
   position: relative;
   width: 50%;
-  margin-top: 1%;
+  margin-top: 2%;
+  overflow: visible;
+  left: 6%;
+  word-wrap: break-word;
 }
 
 .creative-director,
@@ -477,7 +502,8 @@ html {
 .copywriter,
 .account-manager {
   position: relative;
-  top: 3rem;
+  top: 4.5rem;
+  margin-bottom: 2%;
   color: #000;
   font-size: 18px;
   width: 23vw;
@@ -493,7 +519,7 @@ html {
   display: flex;
   width: 100vw;
   background-color: white;
-  gap: 10rem;
+  flex-direction: column;
 }
 
 .Achievements section {
@@ -503,11 +529,23 @@ html {
 .results {
   color: #000;
   font-size: 30px;
-  width: 10vw;
   position: relative;
-  left: 4%;
-  margin-top: 10%;
-  margin-right: 2%;
+  margin-left: 4%;
+  margin-top: 8%;
+  /* margin-right: -5%; */
+  overflow: visible;
+  flex: 0.5;
+}
+
+.procent-flex2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.procent-flex {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
 }
 
 .Percent {
@@ -522,10 +560,17 @@ html {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+  flex: 1;
+}
+
+.text-percent {
+  width: 80%;
 }
 
 .under-percent {
+  margin-top: 1%;
+  margin-bottom: 2%;
   color: var(--blue, #002eff);
   font-family: Montserrat;
   font-size: 18px;
@@ -535,7 +580,7 @@ html {
 
 .p103,
 .p30 {
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 .dots {
@@ -600,11 +645,11 @@ html {
 
 .button {
   position: relative;
-  left: 52.55%;
+  left: 53%;
   background-color: blue;
 }
 
-.button-text{
+.button-text {
   color: white;
   font-family: Montserrat;
   font-size: 30px;
@@ -614,45 +659,45 @@ html {
   margin-right: auto;
 }
 
-footer{
+footer {
   display: flex;
   background-color: white;
   align-items: center;
   height: 15vh;
 }
 
-.logo2{
+.logo2 {
   position: relative;
-  left: 3.5%
+  left: 3.5%;
 }
 
-.years{
+.years {
   position: relative;
   left: 5%;
 }
 
-.avia{
+.avia {
   position: relative;
   left: 10%;
   width: 10rem;
 }
 
-.socmedia{
+.socmedia {
   position: relative;
   left: 20%;
 }
 
-.link-to-pr{
+.link-to-pr {
   position: relative;
   left: 30%;
 }
 
-.line-mini-bottom{
+.line-mini-bottom {
   position: relative;
-  left:32%
+  left: 32%;
 }
 
-.number-bottom{
+.number-bottom {
   position: relative;
   left: 34%;
 }
