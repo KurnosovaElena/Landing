@@ -974,3 +974,340 @@ footer {
     overflow: visible;
   }
 }
+
+@media screen and (max-width: 320px) {
+  body,
+  html {
+    height: 100%;
+    background-position: 50% 6rem;
+    background-size: 78%;
+    font-size: 14px;
+  }
+
+  .mini-line2,
+  .portfolio,
+  .contacts,
+  .prdone-case,
+  .desc1,
+  .desc3,
+  .desc4,
+  .desc5,
+  .line {
+    display: none;
+  }
+
+  .information-left {
+    left: 5%;
+    width: 50%;
+  }
+
+  .logo-container {
+    margin-top: 5%;
+  }
+
+  .field {
+    font-size: 22px;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+
+  .container-pole {
+    overflow: hidden;
+  }
+
+  .big-line-black-1 {
+    margin-top: 10%;
+  }
+
+  .numbers {
+    flex-direction: column;
+  }
+
+  .mini-line3 {
+    border-left: none;
+    height: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .procent15,
+  .procent30 {
+    font-size: 1.5rem;
+    position: relative;
+    left: 5%;
+    margin-right: 5%;
+  }
+
+  .num15,
+  .num30 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .text-num1,
+  .text-num2 {
+    font-size: 12px;
+  }
+
+  .client-moskow {
+    color: white;
+  }
+
+  .mini-line1 {
+    left: 40%;
+  }
+
+  .task-and-done {
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .task-left {
+    overflow: visible;
+    margin-bottom: 6%;
+  }
+
+  .task-text,
+  .done-text {
+    width: 80%;
+    top: 6rem;
+  }
+
+  .done-right,
+  .done,
+  .done-text {
+    left: 11.5% !important;
+  }
+
+  .instruments-text1,
+  .instruments-text2 {
+    font-size: 20px;
+  }
+
+  .instruments {
+    top: 15% !important;
+    width: 80rem;
+  }
+
+  .svg-axure,
+  .svg-google,
+  .svg-googletag,
+  .svg-yandex {
+    width: 4%;
+  }
+
+  .instruments-and-prdone {
+    overflow: visible;
+    height: 70vh;
+  }
+
+  .team {
+    display: block !important;
+    width: 290vw;
+    height: 115vh;
+  }
+
+  .procent-flex {
+    flex-direction: column;
+  }
+
+  .team-text {
+    width: 80%;
+    font-size: 24px;
+  }
+
+  .desc2 {
+    position: relative;
+    bottom: 41.5rem;
+    width: 60%;
+    right: 7%;
+    gap: 1rem;
+  }
+
+  .veryical2 {
+    height: 12vh;
+    top: 0;
+  }
+
+  .memb2 {
+    margin-bottom: 25%;
+  }
+
+  .team-case {
+    top: 0;
+  }
+
+  .members {
+    margin-top: 5%;
+  }
+
+  .memm-img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .memb1,
+  .memb2,
+  .memb3,
+  .memb4,
+  .memb5 {
+    width: 100%;
+  }
+
+  .creative-director,
+  .digital,
+  .copywriter,
+  .account-manager,
+  .content-manager {
+    width: 92vw;
+    top: 2rem;
+    font-size: 16px;
+  }
+
+  .results {
+    font-size: 26px;
+    word-wrap: initial;
+  }
+
+  .Percent {
+    font-size: 34px;
+    width: 13vw !important;
+  }
+
+  .Percent_overview {
+    overflow: visible;
+  }
+
+  .text-percent {
+    width: 80vw;
+    font-size: 10px;
+  }
+
+  .under-percent {
+    width: 75vw;
+    font-size: 12px;
+  }
+
+  .p30,
+  .p103 {
+    margin-top: 12%;
+  }
+
+  .case-text {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  .case-text1 {
+    top: 13rem !important;
+    position: relative;
+    font-size: 16px;
+    right: 28%;
+    width: 100%;
+  }
+
+  .cases {
+    overflow: visible;
+    height: 100%;
+  }
+
+  .scroll {
+    width: 270vw;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .c-text {
+    width: 100%;
+  }
+
+  .dots {
+    margin-bottom: 65%;
+    position: relative;
+    top: 10rem;
+  }
+
+  .brief {
+    flex-direction: column;
+  }
+
+  .text-brief {
+    width: 80% !important;
+    font-size: 20px;
+    margin-bottom: 2%;
+    left: 2%;
+  }
+
+  .button {
+    width: 75%;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50vh;
+    margin-bottom: 5%;
+  }
+
+  .button-text {
+    font-size: 24px;
+  }
+
+  .logo2 {
+    width: 30%;
+    position: relative;
+    bottom: 40%;
+    overflow: visible;
+    left: 5%;
+  }
+
+  .years {
+    left: 40%;
+    width: 100% !important;
+    bottom: 40%;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .avia {
+    bottom: 15%;
+    left: -50% !important;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .socmedia {
+    top: 12%;
+    left: -80% !important;
+    overflow: visible;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+
+  footer {
+    height: 13rem;
+    overflow: hidden;
+  }
+
+  .link-to-pr {
+    top: 33%;
+    width: 100%;
+    left: -95% !important;
+    overflow: visible;
+  }
+
+  .line-mini-bottom {
+    top: 33%;
+    width: 100%;
+    left: -87% !important;
+    height: 1.5rem;
+    overflow: visible;
+  }
+
+  .number-bottom {
+    top: 33%;
+    width: 100%;
+    left: -80% !important;
+    white-space: nowrap;
+    overflow: visible;
+  }
+}
