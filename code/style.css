@@ -701,3 +701,276 @@ footer {
   position: relative;
   left: 34%;
 }
+
+@media screen and (max-width: 720px) {
+  body,
+  html {
+    height: 100%;
+    background-position: 50% 9rem;
+    background-size: 78%;
+    font-size: 14px;
+  }
+
+  .information-left {
+    left: 6.5rem;
+  }
+
+  .russian-field {
+    margin-top: 21.5vh;
+  }
+
+  .field {
+    font-size: 44px;
+  }
+
+  .numbers {
+    gap: 5% !important;
+  }
+
+  .mini-line3 {
+    height: 9.9vh;
+  }
+
+  .task-and-done {
+    height: 30vh;
+  }
+
+  .task,
+  .done {
+    font-size: 12px;
+  }
+
+  .task-text {
+    width: 58.5%;
+  }
+
+  .done-text {
+    width: 88%;
+  }
+
+  .task-text,
+  .done-text {
+    font-size: 16px;
+  }
+
+  .instruments-and-prdone {
+    flex-direction: column;
+    height: 73.5vh;
+    gap: 6%;
+  }
+
+  .prdone-text {
+    width: fit-content;
+    position: relative;
+    left: 3%;
+  }
+
+  .instruments-text1,
+  .prdone-text,
+  .instruments-text2 {
+    font-size: 22px;
+    top: 3rem;
+  }
+
+  .instruments {
+    font-size: 18px;
+    position: relative;
+    top: 20%;
+  }
+
+  .google-tag-text,
+  .google-text,
+  .yandex-text,
+  .axure-text {
+    top: 0rem;
+  }
+
+  .prdone {
+    top: 20%;
+    left: 3%;
+  }
+
+  .optimizationpr,
+  .online-analytics,
+  .visualization,
+  .optimization {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .p30 {
+    overflow: visible;
+  }
+
+  .optimization-text {
+    width: 70%;
+  }
+
+  .grey,
+  .black {
+    width: 75%;
+  }
+
+  .scroll {
+    gap: 0rem;
+  }
+
+  .c-text {
+    margin-left: 2%;
+  }
+
+  .case-img2 {
+    width: 80%;
+  }
+
+  .case-text1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    width: 40rem;
+    margin-left: 2%;
+  }
+
+  .optimizationpr-text,
+  .online-analytics-text,
+  .visualization-text,
+  .optimization-name {
+    font-size: 14px;
+  }
+
+  .team-case {
+    flex-direction: column;
+    width: 40%;
+    top: 4rem;
+    overflow-y: hidden;
+  }
+
+  .description-case {
+    top: 24%;
+    width: 50%;
+  }
+
+  .team {
+    padding: 0;
+    height: 85vh;
+  }
+
+  .desc1,
+  .desc2,
+  .desc3,
+  .desc4,
+  .desc5 {
+    width: fit-content;
+    margin-bottom: 12%;
+  }
+
+  .text-brief {
+    font-size: 26px;
+    width: 30% !important;
+  }
+
+  .button {
+    left: 36.2%;
+    width: 30%;
+  }
+
+  .button-text {
+    width: 15rem;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .veryical,
+  .veryical2 {
+    height: 8vh;
+    top: 0.4rem;
+  }
+
+  .team-text {
+    width: 80%;
+  }
+
+  .members {
+    top: 3%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .memm-img {
+    z-index: 0;
+  }
+
+  .procent-flex2 {
+    flex-direction: column;
+  }
+
+  .procent-flex {
+    position: relative;
+    left: 5%;
+  }
+
+  .results {
+    bottom: 5%;
+  }
+
+  .p30 {
+    margin-top: 35%;
+  }
+
+  .logo2 {
+    position: relative;
+    left: 2%;
+    width: 12%;
+  }
+
+  .years {
+    left: 4%;
+    width: 14%;
+  }
+
+  .avia {
+    left: 5%;
+    width: 10rem;
+  }
+
+  .socmedia {
+    left: 3%;
+    width: 15%;
+    text-align: center;
+  }
+
+  .link-to-pr {
+    left: 5%;
+  }
+
+  .line-mini-bottom {
+    left: 6.5%;
+  }
+
+  .number-bottom {
+    left: 8%;
+    text-align: center;
+  }
+
+  .number-bottom,
+  .line-mini-bottom,
+  .link-to-pr,
+  .socmedia,
+  .avia,
+  .years {
+    font-size: 12px;
+  }
+
+  .text-percent {
+    width: 40vw;
+    overflow: visible;
+  }
+
+  .sec {
+    overflow: visible;
+  }
+}
